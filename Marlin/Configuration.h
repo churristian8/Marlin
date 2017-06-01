@@ -77,7 +77,7 @@
 #define STRING_CONFIG_H_AUTHOR "(Christian Ortega, default config)" // Who made the changes.
 #define SHOW_BOOTSCREEN
 #define STRING_SPLASH_LINE1 SHORT_BUILD_VERSION // will be shown during bootup in line 1
-#define STRING_SPLASH_LINE2 "Cuby"         // will be shown during bootup in line 2
+#define STRING_SPLASH_LINE2 "Cuby fixhome"         // will be shown during bootup in line 2
 
 
 //
@@ -825,7 +825,7 @@
   #define LEFT_PROBE_BED_POSITION 0
   #define RIGHT_PROBE_BED_POSITION 175
   #define FRONT_PROBE_BED_POSITION 0
-  #define BACK_PROBE_BED_POSITION 175
+  #define BACK_PROBE_BED_POSITION 180
 
   // The Z probe minimum outer margin (to validate G29 parameters).
   #define MIN_PROBE_EDGE 10
@@ -914,7 +914,7 @@
 // @section homing
 
 // The center of the bed is at (X=0, Y=0)
-//#define BED_CENTER_AT_0_0
+#define BED_CENTER_AT_0_0
 
 // Manually set the home position. Leave these undefined for automatic settings.
 // For DELTA this is the top-center of the Cartesian print volume.
