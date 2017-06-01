@@ -646,7 +646,7 @@
 #define Z_PROBE_SPEED_SLOW (Z_PROBE_SPEED_FAST / 2)
 
 // Use double touch for probing
-//#define PROBE_DOUBLE_TOUCH
+#define PROBE_DOUBLE_TOUCH
 
 /**
  * Z probes require clearance when deploying, stowing, and moving between
@@ -825,7 +825,7 @@
   #define LEFT_PROBE_BED_POSITION 0
   #define RIGHT_PROBE_BED_POSITION 175
   #define FRONT_PROBE_BED_POSITION 0
-  #define BACK_PROBE_BED_POSITION 180
+  #define BACK_PROBE_BED_POSITION 185
 
   // The Z probe minimum outer margin (to validate G29 parameters).
   #define MIN_PROBE_EDGE 10
@@ -939,7 +939,7 @@
 
 // Homing speeds (mm/m)
 #define HOMING_FEEDRATE_XY (50*60)
-#define HOMING_FEEDRATE_Z  (5*60)
+#define HOMING_FEEDRATE_Z  (6*60)
 
 //=============================================================================
 //============================= Additional Features ===========================
