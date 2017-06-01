@@ -5491,7 +5491,7 @@ void home_all_axes() { gcode_G28(); }
         prepare_move_to_destination();
         stepper.synchronize();
 
-        feedrate_mm_s /= 5;
+        feedrate_mm_s /= 4;
 
         // Bump the target more slowly
         LOOP_XYZ(i) destination[i] -= retract_mm[i] * 2;
