@@ -634,7 +634,7 @@
  */
 #define X_PROBE_OFFSET_FROM_EXTRUDER -30  // X offset: -left  +right  [of the nozzle]
 #define Y_PROBE_OFFSET_FROM_EXTRUDER -10  // Y offset: -front +behind [the nozzle]
-#define Z_PROBE_OFFSET_FROM_EXTRUDER -0.8   // Z offset: -below +above  [the nozzle]
+#define Z_PROBE_OFFSET_FROM_EXTRUDER -0.81   // Z offset: -below +above  [the nozzle]
 
 // X and Y axis travel speed (mm/m) between probes
 #define XY_PROBE_SPEED 8000
@@ -823,7 +823,7 @@
 
   // Set the boundaries for probing (where the probe can reach).
   #define LEFT_PROBE_BED_POSITION 0
-  #define RIGHT_PROBE_BED_POSITION 175
+  #define RIGHT_PROBE_BED_POSITION 180
   #define FRONT_PROBE_BED_POSITION 0
   #define BACK_PROBE_BED_POSITION 185
 
